@@ -1,0 +1,28 @@
+{% extends "base1.html" %}
+
+{% block content %}
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/style.css">
+    <title>{{ title }}</title>
+
+</head>
+<body>
+{% set index = ["1", "2", "3"]|random %}
+<div id="rand">
+    {{ team[index]["name"] }}
+    {{ team[index]["surname"] }}
+    <br>
+    <img id="mid" src={{team[index]["image"]}}>
+    <br>
+    {% for x in team[index]["prof"]%}
+    {{ x }}
+    <br>
+    {% endfor %}
+</div>
+</body>
+
+
+{% endblock %}

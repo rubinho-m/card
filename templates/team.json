@@ -1,0 +1,29 @@
+{
+  "1": {
+    "name": "Jack",
+    "surname": "Gray",
+    "image": "static/img/big.jpg",
+    "prof": [
+      "cap",
+      "engineer"
+    ]
+  },
+  "2": {
+    "name": "Karl",
+    "surname": "Duncan",
+    "image": "static/img/mid.jpg",
+    "prof": [
+      "engineer",
+      "driver"
+    ]
+  },
+  "3": {
+    "name": "Tony",
+    "surname": "Riddle",
+    "image": "static/img/child.png",
+    "prof": [
+      "student",
+      "cook"
+    ]
+  }
+}
